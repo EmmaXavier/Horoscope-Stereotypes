@@ -18,8 +18,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tzV-Ce-7GI">
-                                <rect key="frame" x="30" y="145" width="108" height="153"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tzV-Ce-7GI">
+                                <rect key="frame" x="30" y="115.5" width="108" height="153"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="108" id="8R2-Hu-RfD"/>
                                     <constraint firstAttribute="width" relation="lessThanOrEqual" constant="108" id="KaB-t9-fRz"/>
@@ -34,15 +34,8 @@
                                     <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Blt-o2-hXO"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Horoscope Stereotypes!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xZ1-84-alD">
-                                <rect key="frame" x="37" y="24" width="341" height="135"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="55"/>
-                                <color key="textColor" red="0.86162159974093266" green="0.24586773407916362" blue="0.1593376202425795" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ScR-Dq-3DQ">
-                                <rect key="frame" x="154" y="145" width="108" height="153"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ScR-Dq-3DQ">
+                                <rect key="frame" x="154" y="115.5" width="108" height="153"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="153" id="1JX-2U-oOn"/>
                                     <constraint firstAttribute="height" constant="153" id="ITK-V0-j5l"/>
@@ -57,8 +50,8 @@
                                     <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pAs-Hg-8Ab"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t6n-5j-Q9O">
-                                <rect key="frame" x="276" y="145" width="108" height="153"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t6n-5j-Q9O">
+                                <rect key="frame" x="276" y="115.5" width="108" height="153"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="108" id="0uV-Ce-YwC"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="153" id="4QE-dm-QEd"/>
@@ -75,10 +68,24 @@
                                     <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w1z-ZU-Yzn"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Horoscope Stereotypes!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xZ1-84-alD">
+                                <rect key="frame" x="11" y="84" width="394" height="45.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="394" id="ZgE-30-hMt"/>
+                                    <constraint firstAttribute="height" constant="45.5" id="om6-SK-Saf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                                <color key="textColor" red="0.86162159974093266" green="0.24586773407916362" blue="0.1593376202425795" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="t6n-5j-Q9O" firstAttribute="top" secondItem="xZ1-84-alD" secondAttribute="bottom" constant="-14" id="F2D-HY-nnv"/>
                             <constraint firstItem="t6n-5j-Q9O" firstAttribute="leading" secondItem="ScR-Dq-3DQ" secondAttribute="trailing" constant="14" id="KDf-Au-hPl"/>
+                            <constraint firstItem="tzV-Ce-7GI" firstAttribute="top" secondItem="xZ1-84-alD" secondAttribute="bottom" constant="-14" id="Ppd-q1-u2O"/>
+                            <constraint firstItem="xZ1-84-alD" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="W24-dl-LSi"/>
+                            <constraint firstItem="ScR-Dq-3DQ" firstAttribute="top" secondItem="xZ1-84-alD" secondAttribute="bottom" constant="-14" id="W6f-Tz-HHe"/>
                             <constraint firstItem="ScR-Dq-3DQ" firstAttribute="leading" secondItem="tzV-Ce-7GI" secondAttribute="trailing" constant="16" id="bcb-I6-LfA"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="t6n-5j-Q9O" secondAttribute="trailing" constant="30" id="khv-qh-zER"/>
                             <constraint firstItem="tzV-Ce-7GI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="oXM-H7-0an"/>
