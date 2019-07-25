@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Horoscope_Stereotypes" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ScR-Dq-3DQ">
+                                <rect key="frame" x="236" y="154" width="108" height="153"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="153" id="ITK-V0-j5l"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="153" id="VD4-lu-q1t"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="108" id="xOC-Wb-q8Y"/>
+                                    <constraint firstAttribute="width" constant="108" id="y7g-QT-1v6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="100"/>
+                                <state key="normal" title="♉️"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tzV-Ce-7GI">
+                                <rect key="frame" x="70" y="154" width="108" height="153"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="108" id="8R2-Hu-RfD"/>
+                                    <constraint firstAttribute="height" constant="153" id="Pbn-PT-2k4"/>
+                                    <constraint firstAttribute="width" constant="108" id="bbW-zz-60X"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="153" id="mlV-uI-Fme"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="100"/>
+                                <state key="normal" title="♈️"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Horoscope Stereotypes!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xZ1-84-alD">
+                                <rect key="frame" x="37" y="15" width="341" height="156"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="341" id="cL5-45-vOD"/>
+                                    <constraint firstAttribute="height" constant="156" id="wRU-EA-yOR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="57"/>
+                                <color key="textColor" red="0.86162159974093266" green="0.24586773407916362" blue="0.1593376202425795" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="xZ1-84-alD" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="15" id="07e-h8-4KL"/>
+                            <constraint firstItem="tzV-Ce-7GI" firstAttribute="top" secondItem="xZ1-84-alD" secondAttribute="bottom" constant="-17" id="P5r-52-oWj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ScR-Dq-3DQ" secondAttribute="trailing" constant="70" id="ZaJ-La-qCM"/>
+                            <constraint firstItem="ScR-Dq-3DQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="110" id="a3c-0k-Ahn"/>
+                            <constraint firstItem="tzV-Ce-7GI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="70" id="ca0-Dl-pN7"/>
+                            <constraint firstItem="ScR-Dq-3DQ" firstAttribute="top" secondItem="xZ1-84-alD" secondAttribute="bottom" constant="-17" id="qfP-qN-M6C"/>
+                            <constraint firstItem="tzV-Ce-7GI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="110" id="rva-sU-Hol"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="112.5"/>
+        </scene>
+    </scenes>
+</document>
