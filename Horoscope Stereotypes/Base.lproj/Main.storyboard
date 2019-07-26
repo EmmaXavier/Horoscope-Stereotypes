@@ -18,6 +18,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Stars cannot do" translatesAutoresizingMaskIntoConstraints="NO" id="eRP-7u-DB7">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tzV-Ce-7GI">
                                 <rect key="frame" x="30" y="115.5" width="108" height="153"/>
                                 <constraints>
@@ -221,6 +224,26 @@
                                     <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qA9-F8-Twg"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b1S-bQ-3iS">
+                                <rect key="frame" x="154" y="598" width="108" height="153"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="108" id="3Xc-4J-zZU"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="153" id="8iL-PW-yjB"/>
+                                    <constraint firstAttribute="width" constant="108" id="QAH-HA-CFA"/>
+                                    <constraint firstAttribute="height" constant="153" id="bNR-mM-Pnz"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="108" id="dfH-L1-YxZ"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="108" id="j8b-bI-jLv"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="153" id="leS-IL-Ib1"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="153" id="v9K-HU-rvw"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="108" id="xCD-LR-zXC"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="153" id="xhz-bb-Ql4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="75"/>
+                                <state key="normal" title="♒️"/>
+                                <connections>
+                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eN6-LN-zum"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fNA-KO-NrZ">
                                 <rect key="frame" x="276" y="598" width="108" height="153"/>
                                 <constraints>
@@ -243,26 +266,6 @@
                                     <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="D5Q-AL-fjc"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b1S-bQ-3iS">
-                                <rect key="frame" x="154" y="598" width="108" height="153"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="108" id="3Xc-4J-zZU"/>
-                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="153" id="8iL-PW-yjB"/>
-                                    <constraint firstAttribute="width" constant="108" id="QAH-HA-CFA"/>
-                                    <constraint firstAttribute="height" constant="153" id="bNR-mM-Pnz"/>
-                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="108" id="dfH-L1-YxZ"/>
-                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="108" id="j8b-bI-jLv"/>
-                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="153" id="leS-IL-Ib1"/>
-                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="153" id="v9K-HU-rvw"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="108" id="xCD-LR-zXC"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="153" id="xhz-bb-Ql4"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="75"/>
-                                <state key="normal" title="♒️"/>
-                                <connections>
-                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eN6-LN-zum"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -279,6 +282,7 @@
                             <constraint firstItem="tzV-Ce-7GI" firstAttribute="top" secondItem="xZ1-84-alD" secondAttribute="bottom" constant="-14" id="Ppd-q1-u2O"/>
                             <constraint firstItem="fNA-KO-NrZ" firstAttribute="top" secondItem="8aP-cQ-YWl" secondAttribute="bottom" constant="8" id="R8Z-au-R5z"/>
                             <constraint firstItem="SM9-I2-tkH" firstAttribute="top" secondItem="v0r-TP-gGt" secondAttribute="bottom" constant="8" id="Tp7-gL-Srq"/>
+                            <constraint firstItem="eRP-7u-DB7" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="VN7-Ug-nIE"/>
                             <constraint firstItem="xZ1-84-alD" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="W24-dl-LSi"/>
                             <constraint firstItem="ScR-Dq-3DQ" firstAttribute="top" secondItem="xZ1-84-alD" secondAttribute="bottom" constant="-14" id="W6f-Tz-HHe"/>
                             <constraint firstItem="RQA-es-leS" firstAttribute="leading" secondItem="SM9-I2-tkH" secondAttribute="trailing" constant="16" id="Y9D-Oe-DB4"/>
@@ -292,10 +296,13 @@
                             <constraint firstItem="8aP-cQ-YWl" firstAttribute="leading" secondItem="RQA-es-leS" secondAttribute="trailing" constant="14" id="gb5-GS-ewM"/>
                             <constraint firstItem="RQA-es-leS" firstAttribute="top" secondItem="SQq-rW-sY6" secondAttribute="bottom" constant="8" id="iBz-Kj-VOQ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="t6n-5j-Q9O" secondAttribute="trailing" constant="30" id="khv-qh-zER"/>
+                            <constraint firstAttribute="bottom" secondItem="eRP-7u-DB7" secondAttribute="bottom" id="nrg-P8-Hqp"/>
+                            <constraint firstAttribute="trailing" secondItem="eRP-7u-DB7" secondAttribute="trailing" id="o82-wn-fEJ"/>
                             <constraint firstItem="tzV-Ce-7GI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="oXM-H7-0an"/>
                             <constraint firstItem="SQq-rW-sY6" firstAttribute="leading" secondItem="v0r-TP-gGt" secondAttribute="trailing" constant="16" id="wRQ-uY-eh5"/>
                             <constraint firstItem="SQq-rW-sY6" firstAttribute="top" secondItem="ScR-Dq-3DQ" secondAttribute="bottom" constant="7.5" id="yJN-Zf-gLd"/>
                             <constraint firstItem="8aP-cQ-YWl" firstAttribute="top" secondItem="oel-57-K4J" secondAttribute="bottom" constant="8" id="zbB-ZQ-zXK"/>
+                            <constraint firstItem="eRP-7u-DB7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ztm-oK-Ba6"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -305,4 +312,7 @@
             <point key="canvasLocation" x="137.68115942028987" y="112.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Stars cannot do" width="1920" height="1271"/>
+    </resources>
 </document>
