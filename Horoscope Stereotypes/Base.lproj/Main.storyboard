@@ -77,18 +77,225 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="38"/>
                                 <color key="textColor" red="0.86162159974093266" green="0.24586773407916362" blue="0.1593376202425795" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.86162159969999996" green="0.24586773410000001" blue="0.1593376202" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v0r-TP-gGt">
+                                <rect key="frame" x="30" y="276" width="108" height="153"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="108" id="18H-cP-nxN"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="153" id="Cnd-2L-R0f"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="108" id="JoJ-YF-uXl"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="153" id="Lv5-Gp-2VS"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="153" id="MUJ-ST-iYD"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="108" id="Tgm-M9-Dfa"/>
+                                    <constraint firstAttribute="width" constant="108" id="Tiq-d7-rYY"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="108" id="U0E-DV-xft"/>
+                                    <constraint firstAttribute="height" constant="153" id="cw5-3g-HWY"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="108" id="eg8-wr-XX0"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="153" id="g7p-mq-m9v"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="153" id="gkG-IO-zkI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="75"/>
+                                <state key="normal" title="♋️"/>
+                                <connections>
+                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="p4D-06-y36"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SQq-rW-sY6">
+                                <rect key="frame" x="154" y="276" width="108" height="153"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="108" id="1Q3-CC-qKZ"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="108" id="7iJ-4Y-diV"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="153" id="CZR-V0-twa"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="108" id="KMf-zL-F4R"/>
+                                    <constraint firstAttribute="width" constant="108" id="Pdi-xS-TkW"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="153" id="eeB-zB-ccl"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="153" id="jPg-GN-nXx"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="153" id="k9s-A7-81d"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="108" id="vx0-8T-WTz"/>
+                                    <constraint firstAttribute="height" constant="153" id="zq7-77-16K"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="75"/>
+                                <state key="normal" title="♌️"/>
+                                <connections>
+                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lwg-8U-zcK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oel-57-K4J">
+                                <rect key="frame" x="276" y="276" width="108" height="153"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="108" id="2Ee-Ii-igh"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="153" id="2KC-Vu-092"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="153" id="34w-hb-pdm"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="108" id="GMa-2U-hvu"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="108" id="HkG-Tt-qLU"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="153" id="cgd-gc-hMf"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="153" id="ioX-xH-c8W"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="108" id="kVF-VR-bYj"/>
+                                    <constraint firstAttribute="height" constant="153" id="lxu-rj-zg7"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="108" id="x6J-q6-4Ko"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="75"/>
+                                <state key="normal" title="♍️"/>
+                                <connections>
+                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rdx-tz-HGf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SM9-I2-tkH">
+                                <rect key="frame" x="30" y="437" width="108" height="153"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="108" id="2dU-Yv-Daf"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="153" id="2tZ-os-Yrr"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="108" id="DMV-JD-upY"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="108" id="Omj-8l-DRm"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="108" id="Ylz-Du-sKx"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="153" id="aE5-JT-vDc"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="153" id="nP7-qv-lrd"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="153" id="tYE-CG-bGz"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="108" id="xAc-g6-N8i"/>
+                                    <constraint firstAttribute="height" constant="153" id="z6y-Vu-dj9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="75"/>
+                                <state key="normal" title="♎️"/>
+                                <connections>
+                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="G1W-Kn-jgV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RQA-es-leS">
+                                <rect key="frame" x="154" y="437" width="108" height="153"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="153" id="B7Y-k9-6XT"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="153" id="b7r-d2-XlK"/>
+                                    <constraint firstAttribute="width" constant="108" id="d2L-0Z-w6U"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="108" id="dXX-sY-Gwi"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="108" id="ecl-V8-w2r"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="153" id="ehf-gS-o8K"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="153" id="gtv-9P-bpT"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="108" id="h1N-rM-DwA"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="108" id="zZG-JP-bBQ"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="153" id="zw8-6u-51s"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="75"/>
+                                <state key="normal" title="♏️"/>
+                                <connections>
+                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TJa-ur-Gm3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8aP-cQ-YWl">
+                                <rect key="frame" x="276" y="437" width="108" height="153"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="108" id="64B-UP-xFt"/>
+                                    <constraint firstAttribute="height" constant="153" id="6tg-zZ-gfr"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="153" id="7jy-ff-TIH"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="108" id="B2A-wn-sl7"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="108" id="Tjh-ix-QnP"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="153" id="Xyo-jI-bgr"/>
+                                    <constraint firstAttribute="width" constant="108" id="cVz-Tl-VWo"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="153" id="m4c-S5-sg8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="75"/>
+                                <state key="normal" title="♐️"/>
+                                <connections>
+                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mS2-8P-0hA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MXq-tX-K2d">
+                                <rect key="frame" x="30" y="598" width="108" height="153"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="153" id="0rh-lv-AVN"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="153" id="6KC-Dc-FUn"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="108" id="7hc-gU-4l8"/>
+                                    <constraint firstAttribute="width" constant="108" id="EVy-Uu-Cp6"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="153" id="Ebv-5h-SRu"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="108" id="GRY-6J-Bpy"/>
+                                    <constraint firstAttribute="height" constant="153" id="LNZ-qL-q3v"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="153" id="MJ6-to-e66"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="153" id="Sq8-Ci-9ba"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="108" id="Yeu-dN-eFf"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="108" id="Yie-9Q-rff"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="108" id="sK0-1P-GF4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="75"/>
+                                <state key="normal" title="♑️"/>
+                                <connections>
+                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qA9-F8-Twg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fNA-KO-NrZ">
+                                <rect key="frame" x="276" y="598" width="108" height="153"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="153" id="3mY-xl-Cnj"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="153" id="Kos-vg-8qm"/>
+                                    <constraint firstAttribute="width" constant="108" id="N2L-J7-O1S"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="153" id="Wqc-3t-zyA"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="153" id="XEB-zH-ZYh"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="153" id="adq-bf-t7E"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="108" id="i2g-vU-9aa"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="108" id="j72-vS-Wjc"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="108" id="m82-qr-c0h"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="108" id="nI7-Tp-bZ9"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="108" id="s34-6i-5xl"/>
+                                    <constraint firstAttribute="height" constant="153" id="z3B-Ih-uFB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="75"/>
+                                <state key="normal" title="♓️"/>
+                                <connections>
+                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="D5Q-AL-fjc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b1S-bQ-3iS">
+                                <rect key="frame" x="154" y="598" width="108" height="153"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="108" id="3Xc-4J-zZU"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="153" id="8iL-PW-yjB"/>
+                                    <constraint firstAttribute="width" constant="108" id="QAH-HA-CFA"/>
+                                    <constraint firstAttribute="height" constant="153" id="bNR-mM-Pnz"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="108" id="dfH-L1-YxZ"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="108" id="j8b-bI-jLv"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="153" id="leS-IL-Ib1"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="153" id="v9K-HU-rvw"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="108" id="xCD-LR-zXC"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="153" id="xhz-bb-Ql4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="75"/>
+                                <state key="normal" title="♒️"/>
+                                <connections>
+                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eN6-LN-zum"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fNA-KO-NrZ" secondAttribute="trailing" constant="30" id="17f-RW-apw"/>
+                            <constraint firstItem="MXq-tX-K2d" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="704-8c-eQ8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="oel-57-K4J" secondAttribute="trailing" constant="30" id="7xY-uy-utl"/>
+                            <constraint firstItem="fNA-KO-NrZ" firstAttribute="leading" secondItem="b1S-bQ-3iS" secondAttribute="trailing" constant="14" id="8la-Ea-VH6"/>
+                            <constraint firstItem="MXq-tX-K2d" firstAttribute="top" secondItem="SM9-I2-tkH" secondAttribute="bottom" constant="8" id="9fA-dt-fRf"/>
                             <constraint firstItem="t6n-5j-Q9O" firstAttribute="top" secondItem="xZ1-84-alD" secondAttribute="bottom" constant="-14" id="F2D-HY-nnv"/>
+                            <constraint firstItem="oel-57-K4J" firstAttribute="top" secondItem="t6n-5j-Q9O" secondAttribute="bottom" constant="7.5" id="Fkq-3b-MO1"/>
+                            <constraint firstItem="b1S-bQ-3iS" firstAttribute="leading" secondItem="MXq-tX-K2d" secondAttribute="trailing" constant="16" id="GFi-d1-Qg7"/>
                             <constraint firstItem="t6n-5j-Q9O" firstAttribute="leading" secondItem="ScR-Dq-3DQ" secondAttribute="trailing" constant="14" id="KDf-Au-hPl"/>
+                            <constraint firstItem="oel-57-K4J" firstAttribute="leading" secondItem="SQq-rW-sY6" secondAttribute="trailing" constant="14" id="Oh4-y2-c3X"/>
                             <constraint firstItem="tzV-Ce-7GI" firstAttribute="top" secondItem="xZ1-84-alD" secondAttribute="bottom" constant="-14" id="Ppd-q1-u2O"/>
+                            <constraint firstItem="fNA-KO-NrZ" firstAttribute="top" secondItem="8aP-cQ-YWl" secondAttribute="bottom" constant="8" id="R8Z-au-R5z"/>
+                            <constraint firstItem="SM9-I2-tkH" firstAttribute="top" secondItem="v0r-TP-gGt" secondAttribute="bottom" constant="8" id="Tp7-gL-Srq"/>
                             <constraint firstItem="xZ1-84-alD" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="W24-dl-LSi"/>
                             <constraint firstItem="ScR-Dq-3DQ" firstAttribute="top" secondItem="xZ1-84-alD" secondAttribute="bottom" constant="-14" id="W6f-Tz-HHe"/>
+                            <constraint firstItem="RQA-es-leS" firstAttribute="leading" secondItem="SM9-I2-tkH" secondAttribute="trailing" constant="16" id="Y9D-Oe-DB4"/>
+                            <constraint firstItem="SQq-rW-sY6" firstAttribute="top" secondItem="ScR-Dq-3DQ" secondAttribute="bottom" constant="7.5" id="bSp-Yd-lyr"/>
                             <constraint firstItem="ScR-Dq-3DQ" firstAttribute="leading" secondItem="tzV-Ce-7GI" secondAttribute="trailing" constant="16" id="bcb-I6-LfA"/>
+                            <constraint firstItem="v0r-TP-gGt" firstAttribute="top" secondItem="tzV-Ce-7GI" secondAttribute="bottom" constant="7.5" id="brq-eA-f0d"/>
+                            <constraint firstItem="SM9-I2-tkH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="cCk-YN-5Y8"/>
+                            <constraint firstItem="b1S-bQ-3iS" firstAttribute="top" secondItem="RQA-es-leS" secondAttribute="bottom" constant="8" id="cqx-dm-O2F"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8aP-cQ-YWl" secondAttribute="trailing" constant="30" id="dFW-lW-Zgu"/>
+                            <constraint firstItem="v0r-TP-gGt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="fPY-34-l8X"/>
+                            <constraint firstItem="8aP-cQ-YWl" firstAttribute="leading" secondItem="RQA-es-leS" secondAttribute="trailing" constant="14" id="gb5-GS-ewM"/>
+                            <constraint firstItem="RQA-es-leS" firstAttribute="top" secondItem="SQq-rW-sY6" secondAttribute="bottom" constant="8" id="iBz-Kj-VOQ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="t6n-5j-Q9O" secondAttribute="trailing" constant="30" id="khv-qh-zER"/>
                             <constraint firstItem="tzV-Ce-7GI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="oXM-H7-0an"/>
+                            <constraint firstItem="SQq-rW-sY6" firstAttribute="leading" secondItem="v0r-TP-gGt" secondAttribute="trailing" constant="16" id="wRQ-uY-eh5"/>
+                            <constraint firstItem="SQq-rW-sY6" firstAttribute="top" secondItem="ScR-Dq-3DQ" secondAttribute="bottom" constant="7.5" id="yJN-Zf-gLd"/>
+                            <constraint firstItem="8aP-cQ-YWl" firstAttribute="top" secondItem="oel-57-K4J" secondAttribute="bottom" constant="8" id="zbB-ZQ-zXK"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
